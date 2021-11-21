@@ -19,12 +19,10 @@ Thisproject is used to show how to deploy an django app on aws lambda using zapp
 </ol>
 
 ### 2-  before running zappa make sure that the following file exist on your machine 
-<ol>
+<ul>
 <li>vi ~/.aws/credentials </li>
- <li> the file look must look like this 
- Download the app and Run
+</ul>
+The file looks something like this 
 ```bash
 $ python manage.py runserver
 ```
-  </li>
-</ol>
