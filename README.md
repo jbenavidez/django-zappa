@@ -22,9 +22,11 @@ Thisproject is used to show how to deploy an django app on aws lambda using zapp
 <ul>
 <li>vi ~/.aws/credentials </li>
 </ul>
-####The file looks something like this 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+ 
+#### The file looks something like this" 
+```bash
+[default]
+aws_access_key_id = some public key
+aws_secret_access_key = some_secret_key
 ```
+ 
