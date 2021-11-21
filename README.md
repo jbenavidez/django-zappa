@@ -77,20 +77,18 @@ STATIC_URL = "https://%s/" % AWS_S3_CUSTOM_DOMAIN
 ```
 
 
-### 3-  Zappa Deployment 
+### 4-  Zappa Deployment 
 <ul>
 <li>zappa init </li>
 <li> zappa deploy dev </li>
 <li> zappa update dev  </li>
+<li> zappa manage dev "collectstatic --noinput"</li>
 </ul>
 
 
+### 5 - result
+![Alt text](/images/django_zappa.png "Homagepe" )
  
 
 
-### 4- Modify your S3 bucket to handle   static files 
-<ul>
-<li>zappa init </li>
-<li> zappa deploy dev </li>
-<li> zappa update dev  </li>
-</ul>
+ 
