@@ -1,5 +1,5 @@
 # Django-Zappa
-Thisproject is used to show how to deploy an django app on aws lambda using zappa 
+This project is used to show how to deploy an django app on aws lambda using zappa 
 
 # Stack
 <ul>
